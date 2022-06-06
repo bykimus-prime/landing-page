@@ -7,24 +7,79 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background: #1F2937;
+    padding: 16px 200px;
+}
+
+#logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    gap: 30px;
+}
 
+.secondary, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    gap: 10px;
+}
+
+.website .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.website .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.awesome {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
 }
 
 button {
     background: #3882F6;
     color: white;
-    border: none;
     border-radius: 8px;
     padding: 8px 16px;
+    width: 120px;
+}
+
+.signup {
+    border: none;
+}
+
+.image {
+    background-color: gray;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .information {
