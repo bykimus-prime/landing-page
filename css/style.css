@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.top {
+    background: #1F2937;
+    display: flex;
+}
+
+button {
+    background: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.information {
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.quote-area {
+    background: #E5E7EB;
+    display: flex;
+}
+
+.action-call {
+    background: white;
+    display: flex;
+}
+
+.footer {
+    height: 50px;
+    font-size: 14px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
