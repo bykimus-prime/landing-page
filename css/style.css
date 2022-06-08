@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -71,8 +71,9 @@ button {
     width: 120px;
 }
 
-.signup {
+.header button {
     border: none;
+    font-size: 18px;
 }
 
 .image {
@@ -128,14 +129,57 @@ button {
 }
 
 /* QUOTE AREA */
-.quote-area {
+.quote {
     background: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 250px;
 }
 
+em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote p {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+/* CALL TO ACTION */
 .action-call {
     background: white;
     display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.action-call p, .action-call button {
+    font-size: 18px;
+    color: white;
 }
 
 /* FOOTER */
